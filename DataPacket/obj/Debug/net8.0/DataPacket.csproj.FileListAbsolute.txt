@@ -13,3 +13,4 @@
 /Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/Utils.pdb
 /Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.csproj.AssemblyReference.cache
 /Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.csproj.Up2Date
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.sourcelink.json

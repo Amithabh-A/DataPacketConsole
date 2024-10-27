@@ -1,4 +1,4 @@
-﻿namespace Updater;
+namespace Updater;
 using Updater.Utils;
 using System;
 using System.Collections.Generic;
@@ -14,26 +14,14 @@ public class DataPacket
         Broadcast // multiple files
     }
 
-    public class MixedData
-    {
-        public FileContent? SingleFile { get; set; }
-        public List<FileContent>? MultipleFiles { get; set; }
-    }
-
     private PacketType _packetType;
-    private MixedData _mixedData = new MixedData();
+    private List<FileContent>? _fileContentList;
 
-    // two types of constructors. 
-    public DataPacket(PacketType packetType, FileContent fileContent)
-    {
-        _packetType = packetType;
-        _mixedData.SingleFile = fileContent;
-    }
-
+    // Constructor for multiple files.
     public DataPacket(PacketType packetType, List<FileContent> fileContents)
     {
         _packetType = packetType;
-        _mixedData.MultipleFiles = fileContents;
+        _fileContentList = fileContents;
     }
 
     public PacketType GetPacketType()
@@ -46,16 +34,10 @@ public class DataPacket
         StringBuilder formattedOutput = new StringBuilder();
         formattedOutput.AppendLine($"Packet Type: {_packetType}");
 
-        if (_mixedData.SingleFile != null)
-        {
-            formattedOutput.AppendLine("Single File:");
-            formattedOutput.AppendLine(_mixedData.SingleFile.ToString()); // Assuming FileContent has a ToString method
-        }
-
-        if (_mixedData.MultipleFiles != null && _mixedData.MultipleFiles.Count > 0)
+        if (_fileContentList != null && _fileContentList.Count > 0)
         {
             formattedOutput.AppendLine("Multiple Files:");
-            foreach (var file in _mixedData.MultipleFiles)
+            foreach (FileContent file in _fileContentList)
             {
                 formattedOutput.AppendLine(file.ToString()); // Assuming FileContent has a ToString method
             }
@@ -64,3 +46,4 @@ public class DataPacket
         return formattedOutput.ToString();
     }
 }
+
