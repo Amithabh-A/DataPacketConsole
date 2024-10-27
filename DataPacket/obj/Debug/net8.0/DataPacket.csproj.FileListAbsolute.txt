@@ -1,0 +1,15 @@
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/DataPacket.deps.json
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/DataPacket.dll
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/DataPacket.pdb
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.AssemblyInfoInputs.cache
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.AssemblyInfo.cs
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.csproj.CoreCompileInputs.cache
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.dll
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/refint/DataPacket.dll
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.pdb
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/ref/DataPacket.dll
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/Utils.dll
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/bin/Debug/net8.0/Utils.pdb
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.csproj.AssemblyReference.cache
+/Users/amithabh_a/Projects/DataPacketConsole/DataPacket/obj/Debug/net8.0/DataPacket.csproj.Up2Date
