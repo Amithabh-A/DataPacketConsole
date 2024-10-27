@@ -29,6 +29,15 @@ public class DataPacket
         return _packetType;
     }
 
+    public List<FileContent> GetFileContentList()
+    {
+        if (_fileContentList == null)
+        {
+            throw new InvalidOperationException("File content list is null.");
+        }
+        return _fileContentList;
+    }
+
     public override string ToString()
     {
         StringBuilder formattedOutput = new StringBuilder();
