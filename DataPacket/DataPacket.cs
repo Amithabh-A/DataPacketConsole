@@ -32,6 +32,7 @@ public class FileMetadata
     }
 }
 
+
 public class DataPacket
 {
     public enum PacketType
@@ -55,6 +56,11 @@ public class DataPacket
     public PacketType GetPacketType()
     {
         return _packetType;
+    }
+
+    public void SetPacketType(PacketType packetType)
+    {
+        _packetType = packetType;
     }
 
     public List<FileContent> GetFileContentList()
