@@ -37,6 +37,7 @@ public class DataPacket
 {
     public enum PacketType
     {
+        Confirmation, // No files
         Metadata, // single file
         Differences, // multiple files
         ClientFiles, // multiple files
